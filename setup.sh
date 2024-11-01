@@ -12,7 +12,5 @@ nvm install --lts
 echo "Instalando TypeScript..."
 npm install -g typescript
 
-echo "Carregando ~/.bashrc..."
-source ~/.bashrc
-
 echo "Instalação concluída!"
+echo "NOW RUN: $ source ~/.bashrc"
