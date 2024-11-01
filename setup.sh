@@ -7,7 +7,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
 echo "Instalando a versão LTS do Node.js..."
-nvm install --lts
+nvm install v22.11.0
 
 echo "Instalando TypeScript..."
 npm install -g typescript
