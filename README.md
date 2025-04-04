@@ -28,6 +28,6 @@ To run the script, simply execute the following command in your terminal:
 This command will download and execute the setup script without needing to clone the repository.
 After running the script, reload your terminal:
 
-    $ source ~/.bashrc
+    source ~/.bashrc
 
 ##
